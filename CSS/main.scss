@@ -115,7 +115,8 @@ nav {
 // }
 
 #myCarousel {
-    
+    width: 100%;
+    height: 50%;
 
     .backimg {
         width: 100%;
@@ -123,21 +124,18 @@ nav {
     }
 
     .carousel-caption {
-        border: 2px solid red;
+        // border: 2px solid red;
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
         display: flex;
-        justify-content: space-around;
-        gap: 5em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         color: #fff;
-        box-sizing: content-box;
-        overflow: hidden;
-
 
         .secImg{
-            width: 25em;
+            border: 2px solid red;
+            width: 50%;
+
         }
     }
 }

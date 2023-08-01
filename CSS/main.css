@@ -57,26 +57,22 @@ nav .navRight img {
   margin-left: 0.3em;
 }
 
+#myCarousel {
+  width: 100%;
+  height: 50%;
+}
 #myCarousel .backimg {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 #myCarousel .carousel-caption {
-  border: 2px solid red;
   display: flex;
-  justify-content: space-around;
-  gap: 5em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: #fff;
-  box-sizing: content-box;
-  overflow: hidden;
 }
 #myCarousel .carousel-caption .secImg {
-  width: 25em;
+  border: 2px solid red;
+  width: 50%;
 }
 
 .description {
