@@ -57,35 +57,26 @@ nav .navRight img {
   margin-left: 0.3em;
 }
 
-#main {
-  background: black url("/images/Background.jpg") no-repeat;
-  background-size: cover;
-  color: white;
-  height: 30em;
+#myCarousel .backimg {
   width: 100%;
-  display: grid;
-  align-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-#main .content {
+#myCarousel .carousel-caption {
+  border: 2px solid red;
   display: flex;
   justify-content: space-around;
-  width: 75%;
-  margin: auto;
+  gap: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  box-sizing: content-box;
+  overflow: hidden;
 }
-#main .content h1 {
-  font-weight: bold;
-  font-size: 3em;
-}
-#main .content p {
-  font-size: 1.2em;
-  margin: 2em 0;
-  letter-spacing: 0.1em;
-}
-#main h1 {
-  margin: 0;
-}
-#main .secImg img {
-  width: 40em;
+#myCarousel .carousel-caption .secImg {
+  width: 25em;
 }
 
 .description {

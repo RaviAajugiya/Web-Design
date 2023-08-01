@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #eeeff1;
 }
 
-#navbar{
+#navbar {
     background-color: white;
 }
 
-nav{
+nav {
     // border: 2px solid red;
     display: flex;
     align-items: center;
@@ -19,55 +19,55 @@ nav{
     width: 75%;
     margin: auto;
     box-sizing: border-box;
-    
 
-    ul{
+
+    ul {
         list-style: none;
         display: flex;
         align-items: center;
         margin: 0;
 
-        li{
+        li {
             font-size: 1.3em;
             padding: 0em .8em;
             align-items: center;
             display: flex;
 
-            
+
         }
     }
 
-    .navLeft{
+    .navLeft {
         display: flex;
         // border: 2px solid red;
 
 
-        .logo{
+        .logo {
             // border-right: 2px solid gray;
             display: flex;
             align-items: center;
             font-size: 2em;
 
-            img{
+            img {
                 border: 2px solid gray;
                 color: gray;
                 border-radius: 50%;
                 padding: .1em;
                 width: 35px;
-                margin: 0em .4em ;
+                margin: 0em .4em;
                 box-sizing: border-box;
             }
         }
 
-        
-        .logoText{
+
+        .logoText {
             font-weight: bolder;
             margin: 0;
         }
-    }    
+    }
 
-    .navRight{
-        img{
+    .navRight {
+        img {
             width: 25px;
             padding: .3em;
             margin-left: .3em;
@@ -75,73 +75,100 @@ nav{
     }
 }
 
-#main{
-    background: black url("/images/Background.jpg") no-repeat ;
-    background-size: cover;
-    color: white;
-    height: 30em;
-    width: 100%;
-    // border: 2px solid rgb(0, 0, 255);
-    display: grid;
-    align-content: center;
+// #main{
+//     background: black url("/images/Background.jpg") no-repeat ;
+//     background-size: cover;
+//     color: white;
+//     height: 30em;
+//     width: 100%;
+//     // border: 2px solid rgb(0, 0, 255);
+//     display: grid;
+//     align-content: center;
 
-    .content{
+//     .content{
+//         display: flex;
+//         justify-content: space-around;
+//         width: 75%;
+//         margin: auto;
+
+//         h1{
+//             font-weight: bold;
+//             font-size: 3em;
+//         }
+
+//         p{
+//             font-size: 1.2em;
+//             margin: 2em 0;
+//             letter-spacing: .1em;
+//         }
+//     }
+
+//     h1{
+//         margin: 0;
+//     }
+
+//     .secImg{
+//         img{
+//             width: 40em;
+//         }
+//     }
+// }
+
+#myCarousel {
+    
+
+    .backimg {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        border: 2px solid red;
         display: flex;
         justify-content: space-around;
-        // border: 2px solid red;
-        width: 75%;
-        margin: auto;
+        gap: 5em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        box-sizing: content-box;
+        overflow: hidden;
 
-        h1{
-            font-weight: bold;
-            font-size: 3em;
-        }
 
-        p{
-            font-size: 1.2em;
-            margin: 2em 0;
-            letter-spacing: .1em;
-        }
-    }
-
-    h1{
-        margin: 0;
-    }
-
-    .secImg{
-        img{
-            width: 40em;
+        .secImg{
+            width: 25em;
         }
     }
 }
 
-.description{
+.description {
     display: flex;
     width: 75%;
     margin: auto;
     gap: 5em;
 
-    .quotes{
+    .quotes {
         width: 30%;
         padding: 1em 1.5em;
         line-height: 1.6;
         font-size: 1.2em;
 
-        img{
+        img {
             float: right;
             width: 4.5em;
         }
     }
 }
 
-.Footer{
+.Footer {
     display: flex;
     gap: 5em;
     margin: auto;
     width: 75%;
     margin-top: 3em;
 
-    .container{
+    .container {
         width: 30%;
         padding: 1em 1.5em;
         font-size: 1.2em;
@@ -153,16 +180,12 @@ nav{
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
 
-        span{
+        span {
             font-size: 5em;
 
-            p{
+            p {
                 margin-top: -0.1em;
             }
         }
     }
 }
-
-
-
-
