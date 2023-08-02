@@ -49,13 +49,14 @@ nav .logo img {
 .myCarousel {
   width: 100%;
 }
-
-.backimg {
+.myCarousel .backimg {
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .carousel-caption {
+  border: 2px solid red;
   display: flex;
 }
 .carousel-caption .caption-txt {
