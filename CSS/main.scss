@@ -16,63 +16,36 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 75%;
+    width: 85%;
+    height: 5.5rem;
     margin: auto;
     box-sizing: border-box;
-    
 
-    ul{
-        list-style: none;
+    #mobile-cta{
+        width: 2.5em;
+    }
+
+    #navcontainer{
+        display: none;
+    }
+
+    .logo{
         display: flex;
         align-items: center;
-        margin: 0;
+        font-size: 2em;
+        font-weight: bolder;
 
-        li{
-            font-size: 1.3em;
-            padding: 0em .8em;
-            align-items: center;
-            display: flex;
-
-            
-        }
-    }
-
-    .navLeft{
-        display: flex;
-        // border: 2px solid red;
-
-
-        .logo{
-            // border-right: 2px solid gray;
-            display: flex;
-            align-items: center;
-            font-size: 2em;
-
-            img{
-                border: 2px solid gray;
-                color: gray;
-                border-radius: 50%;
-                padding: .1em;
-                width: 35px;
-                margin: 0em .4em ;
-                box-sizing: border-box;
-            }
-        }
-
-        
-        .logoText{
-            font-weight: bolder;
-            margin: 0;
-        }
-    }    
-
-    .navRight{
         img{
-            width: 25px;
-            padding: .3em;
-            margin-left: .3em;
+            border: 2px solid gray;
+            color: gray;
+            border-radius: 50%;
+            padding: .1em;
+            width: 35px;
+            margin: 0em .4em ;
+            box-sizing: border-box;
         }
     }
+        
 }
 
 #main{
@@ -89,7 +62,7 @@ nav{
         display: flex;
         justify-content: space-around;
         // border: 2px solid red;
-        width: 75%;
+        width: 55%;
         margin: auto;
 
         h1{
@@ -110,6 +83,7 @@ nav{
 
     .secImg{
         img{
+            display: none;
             width: 40em;
         }
     }
@@ -117,13 +91,15 @@ nav{
 
 .description{
     display: flex;
-    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
     margin: auto;
-    gap: 5em;
+    gap: 2em;
     margin-bottom: 3em;
 
     .quotes{
-        width: 30%;
+        width: 20em;
         padding: 1em 1.5em;
         line-height: 1.6;
         font-size: 1.2em;
@@ -137,14 +113,16 @@ nav{
 
 .Footer{
     display: flex;
-    gap: 5em;
-    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
     margin: auto;
+    gap: 2em;
     margin-bottom: 3em;
 
 
     .container{
-        width: 30%;
+        width: 20em;
         padding: 1em 1.5em;
         font-size: 1.2em;
         background-color: white;
@@ -162,6 +140,57 @@ nav{
     }
 }
 
+// #navcontainer{
+//     position: fixed;
+//     z-index: 9;
+//     width: 35%;
+//     right: 0;
+//     top: 0;
+//     background: #c5c5c5;
+//     height: 100vh;
+//     padding: 2em;
+//     color: white;
+//     box-sizing: border-box;
+
+//     #mobile-exit{
+//         float: right;
+//     }
+
+//     .navLeft{
+//         justify-content: flex-end;
+//         display: flex;
+//     }
+
+//     .navLeft{
+//         margin-top: 5em;
+//     }
+
+    
+//     img{
+//         width: 2.5em;
+//     }
+    
+//     ul{
+//         list-style: none;
+//         align-items: center;
+//         font-size: 1.5em;
+//         color: black;
+//         font-weight: bold;
+
+//         li{
+//             font-size: 1.3em;
+//             padding: .5em;
+//             margin: .5em;
+//         }
+//     }
+// }
+
+@media only screen and (min-width: 1080px){
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+
+}
 
 
 
