@@ -46,6 +46,27 @@ nav .logo img {
   box-sizing: border-box;
 }
 
+#carouselExampleCaptions {
+  width: 100%;
+}
+
+.backimg {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  display: flex;
+}
+.carousel-caption .caption-txt {
+  float: left;
+}
+.carousel-caption img {
+  display: none;
+  width: 40em;
+  float: right;
+}
+
 #main {
   background: url("/images/Background.jpg") no-repeat;
   background-size: cover;

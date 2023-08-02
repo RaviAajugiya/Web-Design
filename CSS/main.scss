@@ -55,6 +55,29 @@ nav {
 
 }
 
+#carouselExampleCaptions{
+    width: 100%;
+}
+
+.backimg{
+    object-fit: cover;
+}
+
+.carousel-caption{
+    display: flex;
+
+    .caption-txt{
+        float: left;
+    }
+
+    img {
+        display: none;
+        width: 40em;
+        float: right;
+        
+    }
+}
+
 #main {
     background: url("/images/Background.jpg") no-repeat;
     background-size: cover;
