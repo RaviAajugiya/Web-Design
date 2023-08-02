@@ -93,6 +93,7 @@ nav .navRight img {
   width: 75%;
   margin: auto;
   gap: 5em;
+  margin-bottom: 3em;
 }
 .description .quotes {
   width: 30%;
@@ -108,9 +109,9 @@ nav .navRight img {
 .Footer {
   display: flex;
   gap: 5em;
-  margin: auto;
   width: 75%;
-  margin-top: 3em;
+  margin: auto;
+  margin-bottom: 3em;
 }
 .Footer .container {
   width: 30%;
@@ -120,9 +121,6 @@ nav .navRight img {
   border: 2px solid rgb(159, 159, 159);
   border-radius: 0.4em;
   text-align: center;
-  border-bottom: none;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
 }
 .Footer .container span {
   font-size: 5em;

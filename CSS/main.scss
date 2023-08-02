@@ -120,6 +120,7 @@ nav{
     width: 75%;
     margin: auto;
     gap: 5em;
+    margin-bottom: 3em;
 
     .quotes{
         width: 30%;
@@ -137,9 +138,10 @@ nav{
 .Footer{
     display: flex;
     gap: 5em;
-    margin: auto;
     width: 75%;
-    margin-top: 3em;
+    margin: auto;
+    margin-bottom: 3em;
+
 
     .container{
         width: 30%;
@@ -149,9 +151,6 @@ nav{
         border: 2px solid rgb(159, 159, 159);
         border-radius: .4em;
         text-align: center;
-        border-bottom: none;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
 
         span{
             font-size: 5em;
