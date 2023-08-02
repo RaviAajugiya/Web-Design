@@ -46,7 +46,7 @@ nav .logo img {
   box-sizing: border-box;
 }
 
-#carouselExampleCaptions {
+.myCarousel {
   width: 100%;
 }
 
