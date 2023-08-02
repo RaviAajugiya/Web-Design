@@ -14,31 +14,24 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 75%;
+  width: 85%;
+  height: 5.5rem;
   margin: auto;
   box-sizing: border-box;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
+nav #mobile-cta {
+  width: 2.5em;
 }
-nav ul li {
-  font-size: 1.3em;
-  padding: 0em 0.8em;
-  align-items: center;
-  display: flex;
+nav #navcontainer {
+  display: none;
 }
-nav .navLeft {
-  display: flex;
-}
-nav .navLeft .logo {
+nav .logo {
   display: flex;
   align-items: center;
   font-size: 2em;
+  font-weight: bolder;
 }
-nav .navLeft .logo img {
+nav .logo img {
   border: 2px solid gray;
   color: gray;
   border-radius: 50%;
@@ -46,15 +39,6 @@ nav .navLeft .logo img {
   width: 35px;
   margin: 0em 0.4em;
   box-sizing: border-box;
-}
-nav .navLeft .logoText {
-  font-weight: bolder;
-  margin: 0;
-}
-nav .navRight img {
-  width: 25px;
-  padding: 0.3em;
-  margin-left: 0.3em;
 }
 
 #main {
@@ -69,7 +53,7 @@ nav .navRight img {
 #main .content {
   display: flex;
   justify-content: space-around;
-  width: 75%;
+  width: 55%;
   margin: auto;
 }
 #main .content h1 {
@@ -85,18 +69,21 @@ nav .navRight img {
   margin: 0;
 }
 #main .secImg img {
+  display: none;
   width: 40em;
 }
 
 .description {
   display: flex;
-  width: 75%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
   margin: auto;
-  gap: 5em;
+  gap: 2em;
   margin-bottom: 3em;
 }
 .description .quotes {
-  width: 30%;
+  width: 20em;
   padding: 1em 1.5em;
   line-height: 1.6;
   font-size: 1.2em;
@@ -108,13 +95,15 @@ nav .navRight img {
 
 .Footer {
   display: flex;
-  gap: 5em;
-  width: 75%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
   margin: auto;
+  gap: 2em;
   margin-bottom: 3em;
 }
 .Footer .container {
-  width: 30%;
+  width: 20em;
   padding: 1em 1.5em;
   font-size: 1.2em;
   background-color: white;
@@ -127,4 +116,10 @@ nav .navRight img {
 }
 .Footer .container span p {
   margin-top: -0.1em;
+}
+
+@media only screen and (min-width: 1080px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
