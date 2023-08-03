@@ -140,27 +140,6 @@ nav .logo img {
   width: 40em;
 }
 
-.description {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 85%;
-  margin: auto;
-  margin-top: 2em;
-  gap: 2em;
-  margin-bottom: 3em;
-}
-.description .quotes {
-  width: 20em;
-  line-height: 1.6;
-  font-size: 1.1em;
-}
-.description .quotes img {
-  float: right;
-  width: 4.5em;
-  filter: grayscale(100%);
-}
-
 #cards, #review {
   width: 95%;
   margin: auto;

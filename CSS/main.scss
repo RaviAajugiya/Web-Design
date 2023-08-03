@@ -170,31 +170,6 @@ nav {
     }
 }
 
-
-.description {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 85%;
-    margin: auto;
-    margin-top: 2em;
-    gap: 2em;
-    margin-bottom: 3em;
-
-    .quotes {
-        width: 20em;
-        // padding: 1em 1.5em;
-        line-height: 1.6;
-        font-size: 1.1em;
-
-        img {
-            float: right;
-            width: 4.5em;
-            filter: grayscale(100%);
-        }
-    }
-}
-
 #cards, #review{
     width: 95%;
     margin: auto;
