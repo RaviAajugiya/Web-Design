@@ -21,7 +21,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    color: white;
     position: fixed;
     bottom: 0;
     z-index: 5;
@@ -171,7 +172,7 @@ nav {
 }
 
 #cards, #review{
-    width: 95%;
+    width: 85%;
     margin: auto;
 }
 
@@ -271,6 +272,10 @@ nav {
             }
         }
     }
+}
+
+#cards{
+    margin-bottom: 3.5em;
 }
 
 .menu-btn {
