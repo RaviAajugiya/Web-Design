@@ -142,27 +142,47 @@ nav .logo img {
   width: 40em;
 }
 
-#cards, #review {
-  width: 85%;
+.description {
+  padding: 1em;
+  margin-top: 2.5em !important;
+  display: flex;
+  flex: auto;
+  width: 80%;
+  gap: 3em;
   margin: auto;
+  flex-wrap: wrap;
 }
-
-#review {
-  margin-top: 3em;
+.description .quotes {
+  flex: 25%;
+  min-width: 14em;
 }
-#review .card {
-  background-color: unset;
-  border: unset;
-  min-width: 2em;
-}
-#review img {
+.description .quotes img {
+  width: 5em;
   float: right;
 }
 
-.card img {
-  width: 5em;
+.cards {
+  margin-top: 2.5em !important;
+  margin-bottom: 5em !important;
+  display: flex;
+  flex: auto;
+  width: 80%;
+  gap: 3em;
   margin: auto;
-  padding: 0.5em;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cards div {
+  flex: 25%;
+  min-width: 14em;
+  text-align: center;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 0.5em;
+  padding: 1.5em;
+}
+.cards div p {
+  margin: 0;
 }
 
 #navcontainer {
@@ -218,10 +238,6 @@ nav .logo img {
 }
 #navcontainer ul li:hover {
   font-weight: bold;
-}
-
-#cards {
-  margin-bottom: 3.5em;
 }
 
 .menu-btn {

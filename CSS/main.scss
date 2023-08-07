@@ -32,7 +32,6 @@ footer{
     height: 3.2em;
     font-size: 1.1em;
 
-
     p{
         margin: 0;
     }
@@ -94,8 +93,6 @@ nav {
 
 .carousel-caption {
     align-content: center;
-    // display: flex;
-    // bottom: 6.65rem;
     position: absolute;
     width: 70%;
     top: 50%;
@@ -173,30 +170,50 @@ nav {
     }
 }
 
-#cards, #review{
-    width: 85%;
+.description{
+    padding: 1em;
+    margin-top:2.5em !important;
+    display: flex;
+    flex: auto;
+    width: 80%;
+    gap: 3em;
     margin: auto;
-}
-
-#review{
-    margin-top: 3em;
+    flex-wrap: wrap;
     
-    .card{
-        background-color: unset;
-        border: unset;
-        min-width: 2em;
-    }
-    img{
-        float: right;
+    .quotes{
+        flex: 25%;
+        min-width: 14em;
+
+        img{
+            width: 5em;
+            float: right;
+        }
     }
 }
 
-.card{
+.cards{
+    margin-top:2.5em !important;
+    margin-bottom: 5em !important;
+    display: flex;
+    flex: auto;
+    width: 80%;
+    gap: 3em;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
 
-    img{
-        width: 5em;
-        margin: auto;
-        padding: 0.5em;
+    div{
+        flex: 25%;
+        min-width: 14em;
+        text-align: center;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: .5em;
+        padding: 1.5em;
+
+        p{
+            margin: 0;
+        }
     }
 }
 
@@ -274,10 +291,6 @@ nav {
             }
         }
     }
-}
-
-#cards{
-    margin-bottom: 3.5em;
 }
 
 .menu-btn {
